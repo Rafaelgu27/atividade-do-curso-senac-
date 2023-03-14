@@ -1,0 +1,47 @@
+fieldset{
+    border: 0;
+}
+#titulo{
+    font-family: monospace;
+    color: black;
+    margin-top: 10px;
+}
+body{
+    background-color: 	#FFFACD;
+    justify-content: center;
+    font-size: 1em;
+    color: #FF7F50;
+    margin-left: 36%;
+    margin-top: 2%;
+}
+.campo{
+    margin-bottom: 1em;
+}
+input, button{
+    border-radius: 5px;
+}
+.grupo, .botao{
+    font-size: 1m;
+    color: 	#A0522D;
+    border-radius: 5px;
+}
+
+input[type="text"], input[type="email"]{
+    padding: 0.2em;
+    border: 2px;
+    box-shadow: 2px 2px 2px rgba(0,0,0.2 )
+}
+input{
+    background-color: #FAF0E6;
+    color: #DEB887;
+    text-align: right;
+}
+button{
+    margin: 0px 70px;
+}
+
+#botoes{
+    margin: 0px -60px;
+}
+
+
