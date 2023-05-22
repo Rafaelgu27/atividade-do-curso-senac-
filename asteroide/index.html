@@ -15,7 +15,11 @@
 			type:Phaser.AUTO,
 			with:800,
 			height:600,
-			scene:[Client]//Cena do cliente
+			scene:[Client],//Cena do cliente
+  			pixelArt: true, // Habilita o modo pixel art
+			  input: {
+   	 		keyboard: true // Habilita a entrada de teclado
+  	}
 		};
 		
 		var game = new Phaser.Game(config);
